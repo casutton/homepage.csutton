@@ -1,11 +1,7 @@
-<html>
-  <head> 
-    <title>Charles Sutton: Random Software Tips</title>
-    <LINK REL="stylesheet" TYPE="text/css" HREF="css/base.css">
-    <LINK REL="stylesheet" TYPE="text/css" HREF="css/pages.css">
-  </head>
-
-  <body>
+---
+layout: default
+title: "Charles Sutton: Random Software Tips"
+---
 
 <h1>Software Tips</h1>
 
@@ -14,7 +10,7 @@
 <p>
 I had some old personal email accounts that I wanted to copy over
 to GMail so that they would be more easily searchable.  There is a
-script called <tt><a href="http://www.linux-france.org/prj/imapsync/">imapsync</a></tt> that makes this easy.
+script called <code><a href="http://www.linux-france.org/prj/imapsync/">imapsync</a></code> that makes this easy.
 You can get this script from either Debian ports and macports.
 </p>
 
@@ -22,18 +18,15 @@ You can get this script from either Debian ports and macports.
 The command line that I used was something like (fill in the variables
 indicated by $). It was for moving from the old account to gmail.
 </p>
-<pre>
+<pre><code>
   imapsync --host1 $UNI_HOST_NAME --user1 $UNI_USER_NAME --port1 993
    --authmech1 PLAIN --noauthmd5 --syncinternaldates
    --user2 $GOOGLE_USER_NAME --host2 imap.gmail.com --port2 993 --ssl1 --ssl2
    --useheader Message-Id --folder $NAME_OF_IMAP_FOLDER --skipsize
    --password1 $UNI_PASSWD --password2 $GOOG_PASSWD --regextrans2 's/INBOX/All Mail/'
-</pre>
+</code></pre>
 <p>
 I stuck this within a shell script that iterator over all of my folders on the from side.
 GMail automatically maps labels to folders in its IMAP implementation.
 There are a few idiosyncracies in this mapping that I don't remember.
 </p>
-
-</body>
-</html>

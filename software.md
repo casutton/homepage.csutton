@@ -24,7 +24,7 @@ results for several of my papers, including those on DCRFs and skip-chain CRFs.
 
 For more "fun" projects (not that fun, sorry), see [my Github page](https://github.com/casutton/).
 
-Maybe you're particularly interested in (the source for this site)[].
+Maybe you're particularly interested in [the source for this site](https://github.com/casutton/homepage.csutton).
 
 ## Software I Use
 

@@ -1,0 +1,50 @@
+h1 { padding-bottom: 15px; }
+body { font-size: 12pt; }
+p {
+    font-family: 'Lora', serif;
+    font-size: 12pt;
+}
+li {
+    font-family: 'Lora', serif;
+    font-size: 12pt;
+}
+li.nav-font { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+li.nav-font a { font-weight: normal; }
+.photo { margin-top: 50px; border: 1px; border-color: black;  }
+.breaking { background-color: #FFCCCC; padding: 15px 25px 10px 25px; }
+
+.fa-navbar { font-size: 20pt; }
+.fa-envelope-open { font-size: 16pt; }
+.navbar-social { padding: 0; margin: 0; }
+.navbar-social li  { padding: 0; margin: 0; }
+.navbar-social>li>a { padding-right: 7px; padding-left: 7px; padding-bottom: 0; padding-top: 12px; }
+.navbar { margin-bottom: 5px; }
+
+/* for publication listing on front page */
+.bibitem { list-style-type: none; padding: 0 0 0 0; margin-bottom: 2ex; }
+.bibitem p { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+
+.annote { color: darkred; font-size: 80%; }
+.abstract { margin: 1em 2em 3em 1em; font-size: 10pt; text-indent:0em; }
+.note { font-size: 10pt; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+    padding-top: 10px;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f0f0f0;
+}

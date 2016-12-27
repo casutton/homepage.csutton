@@ -1,0 +1,7 @@
+h1 { color: #444444; }
+h2 { color: #444444; }
+a:link { color: #888888; }
+a:visited { color: #666666; }
+a:hover { color: red;}
+.color-header { background-color: LightGray; }
+.breaking { background-color: LightGray; }

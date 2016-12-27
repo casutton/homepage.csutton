@@ -1,0 +1,11 @@
+h1 { color: red; }
+h2 { color: red; }
+h3 { color: red; }
+a:link { color: red; }
+a:visited { color: #990000; }
+a:hover { color: #ff3292;}
+.color-header { background-color: #FFCCCC; }
+.breaking { background-color: thistle; }
+.navbar-inverse { background-color: orange; }
+.navbar-font { color: white; }
+.navbar-brand-font { color: white; }

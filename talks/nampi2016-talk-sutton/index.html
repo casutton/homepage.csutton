@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+	<div class="page-header">	  
+	  <h1>Learning Program Representations: Symbols to Vectors to
+	  Semantics</h1>
+	  <p class="lead">Slides, papers, code for Charles Sutton's talk at<br/>NIPS <a href="https://uclmr.github.io/nampi/">
+	  Neural Abstract Machines & Program Induction
+	  (NAMPI) workshop</a><br/> Sat 10 December 2016</p>
+	</div>
+	
+	  
+	  <h3>TL;CE <span class="header-parenthetical">(too long; checked email)</span></h3>
+	  <ul>
+	    <li>Exciting opportunity: Every aspect of practical software development can be improved by ML tools
+	    <li>Hot topic in software engineering and programming languages: "big code" or "naturalness of software"
+	    <li>Want to create neural networks that have semantic understanding of code
+	    <li>Wait? Isn't program semantics a solved problem? Two answers
+	    <ol>
+	      <li>Not if you include the connection to the problem domain
+	      <li>Not if you want an approximate method that works for common cases
+	    </ol>
+	    <li>One way to show that you understand software is to summarize it: Given a Java method body, what is the name?
+	    <li>Our ICML 2016 paper does this with a novel three-way convolutional attention mechanism
+	    <li>In more recent work, we have looked at mapping symbolic expressions to continuous semantics
+	    We want the semantics to retain information about equivalence
+	    <li>Tree-based networks seem natural here, but they tend to key on syntactic similarity rather than semantic
+	    <li>Our method is called <em>equivalence networks</em> (EqNets)
+	    <li>We add a regularization term, <em>subexpression forcing,</em> that requires that child semantics be predictable from parents and siblings. This is inpsired by what happens in symbolic logics via, e.g., unification.
+	    <li>Sequence-to-sequence, tree neural networks, etc., do not work well for this problem, but subexpression forcing gives a big improvement.
+	  </ul>
+
+	  <h3>Slides</h3>
+
+	  <p><a href="nampi-sutton-2016.pdf">Slides as pdf</a></p>
+	  
+	  <h3>Papers</h3>
+	 
+	  <p>
+	  The papers that the talk is based on. Please see bibliographies of these papers for works by others:
+	  </p>
+	  <p><em>Naming:</em> <a href="http://arxiv.org/abs/1602.03001">A Convolutional Attention Network for Extreme Summarization of Source Code.</a> Miltiadis Allamanis, Hao Peng and Charles Sutton. In International Conference in Machine Learning (ICML). 2016.</p>
+	  <p><em>Continuous semantics:</em> <a href="http://openreview.net/forum?id=B1vRTeqxg">Learning Continuous Semantic Representations of Symbolic Expressions.</a> Miltiadis Allamanis, Pankajan Chanthirasegaran, Pushmeet Kohli and Charles Sutton. Open Review submission. 2016.
+
+	  <h3>Code</h3>
+
+	  <ul>
+	    <li>EqNet code: <a href="https://github.com/mast-group/eqnet">https://github.com/mast-group/eqnet</a>
+	    <li>EqNet data, example vectors, etc: <a href="http://groups.inf.ed.ac.uk/cup/semvec/">http://groups.inf.ed.ac.uk/cup/semvec/</a></li>
+	    <li>Learning to name code, data, etc: <a href="http://groups.inf.ed.ac.uk/cup/codeattention/">http://groups.inf.ed.ac.uk/cup/codeattention/</a>
+	  </ul>
+
+	  <h3>More General Resources</h3>
+
+	  <ul>
+	    <li>Overview of our work on machine learning for software engineering: <a href="http://mast-group.github.io">http://mast-group.github.io</a>
+	    <li>Resources and papers on big code: <a href="http://learnbigcode.github.io">http://learnbigcode.github.io</a>
+	  </ul>
+
+	  <h3>Collaborators</h3>
+	  <ul>
+	    <li><a href="http://miltos.allamanis.com">Miltiadis Allamanis</a>
+	    <li>Hao Peng (now PhD student, U of Washington)
+	    <li><a href="https://research.microsoft.com/en-us/um/people/pkohli/">Pushmeet Kohli</a>
+	    <li>Pankajan Chantirasagaran
+	  </ul>
+
+	  <h3>Why Am I Doing This?</h3>
+	  <p>
+	  I was inspired to create a "companion web site" for this talk
+	  by <a href="https://www.edwardtufte.com/tufte/powerpoint">Tufte's quixotic diatribe
+	  against Powerpoint</a>. He recommends written handouts instead. This is a first attempt
+	  to adapt his idea to an all-open all-Internet all-the-time age. Feedback welcome.
+	  </p>
+	  
+	<div class="panel">
+	  <p class="text-muted">By Charles Sutton, last modified 10 December 2016</p>
+	</div>
+	  

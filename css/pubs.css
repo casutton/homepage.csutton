@@ -1,0 +1,19 @@
+/* for publication listing on front page */
+ol { list-style-type: none; padding: 0 0 0 0; margin-left: 2em; margin-bottom: 2ex; }
+p { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+
+/* for the publications by topic two-column list */
+ul.twocol {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+  padding:0;
+  margin: 2em; 
+}
+
+ul.twocol > li {
+    list-style-type: none;
+    padding: 0; margin: 0;
+    font: bold 14px/18px Helvetica,sans-serif;
+}

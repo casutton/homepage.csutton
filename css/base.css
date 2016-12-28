@@ -10,11 +10,15 @@ li {
 }
 li.nav-font { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
 li.nav-font a { font-weight: normal; }
-.photo { margin-top: 50px; border: 1px; border-color: black;  }
+.photo { margin-top: 50px; border: 1px solid black; }
 .breaking { background-color: #FFCCCC; padding: 15px 25px 10px 25px; }
 
+.color-header { margin-top: -10px; }
+#contact { padding-bottom: 10px; }
+
 .fa-navbar { font-size: 20pt; }
-.fa-envelope-open { font-size: 16pt; }
+.fa-envelope-open { font-size: 18pt; }
+.fa-google { font-size: 16pt; padding-top: 2px; }
 .navbar-social { padding: 0; margin: 0; }
 .navbar-social li  { padding: 0; margin: 0; }
 .navbar-social>li>a { padding-right: 7px; padding-left: 7px; padding-bottom: 0; padding-top: 12px; }

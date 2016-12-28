@@ -23,21 +23,24 @@ function do_switch () {
 
 
  function switch_to_red_cas () {
-   document.magic_photo.src = 'images/charles.jpg'	
+   magic_photo = $("#magic_photo")[0];
+   magic_photo.src = 'images/charles.jpg'	
    setActiveStyleSheet ("red")
    egg = document.getElementById ("egg")
    egg.innerHTML = "You found the Easter egg! Now try clicking my photo again."
  }
 
  function switch_to_std_cas  () {
-   document.magic_photo.src = 'images/charles3.jpg'	
+   magic_photo = $("#magic_photo")[0];
+   magic_photo.src = 'images/charles3.jpg'	
    setActiveStyleSheet ("standard")
-  egg = document.getElementById ("egg")
+   egg = document.getElementById ("egg")
    egg.innerHTML = "Had enough of silliness? You turned off the Easter egg."
  }
 
  function switch_to_bw_cas () {
-   document.magic_photo.src = 'images/charles-bw.jpg'	
+   magic_photo = $("#magic_photo")[0];
+   magic_photo.src = 'images/charles-bw.jpg'	
    setActiveStyleSheet ("bw")
    egg = document.getElementById ("egg")
    egg.innerHTML = "Don't much like colour, do you?"

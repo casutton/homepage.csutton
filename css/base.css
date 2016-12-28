@@ -14,7 +14,10 @@ li.nav-font a { font-weight: normal; }
 .breaking { background-color: #FFCCCC; padding: 15px 25px 10px 25px; }
 
 .color-header { margin-top: -10px; }
-#contact { padding-bottom: 10px; }
+#contact { padding-bottom: -5px; margin-bottom: 5px; }
+.page-header { padding-bottom: 0px; }
+	       
+.contact-box { margin-bottom: 15px; }
 
 .fa-navbar { font-size: 20pt; }
 .fa-envelope-open { font-size: 18pt; }

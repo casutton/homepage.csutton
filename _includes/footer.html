@@ -1,6 +1,9 @@
 <footer class="footer footer-gray">
   <div class="container">
-    <p class="text-muted">Made using <a href="https://jekyllrb.com">Jekyll</a>. See <a href="https://github.com/casutton/homepage.csutton">source</a>.</p>
+    <p class="text-muted">
+    Made using <a href="https://jekyllrb.com">Jekyll</a>. See <a href="https://github.com/casutton/homepage.csutton">source</a>.
+    {% if page.extra_colophon %}{% include {{ page.extra_colophon }} %}{% endif %}
+    </p>
   </div>
 </footer>
 

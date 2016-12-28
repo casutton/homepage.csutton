@@ -20,8 +20,8 @@ which contains almost all of my favorite essays.
 
 Of these, my favourites are
 
-* Richard Hamming's classic lecture on [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html),
-Amazingly, you can now find [a video of Hamming himself](https://www.youtube.com/watch?v=a1zDuOPkMSw) delivering the lecture.
+* Richard Hamming's classic lecture on [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html).
+Amazingly, you can now find a [video of Hamming himself](https://www.youtube.com/watch?v=a1zDuOPkMSw) delivering the lecture.
 
 * Phil Agre's essay on [Networking on the Network](http://vlsicad.ucsd.edu/Research/Advice/network.html).
 A theoretical framework for understanding professional networking and how research fields are born and grow.

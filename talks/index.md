@@ -18,4 +18,4 @@ NIPS Neural Abstract Machines & Program Induction (NAMPI) workshop. Barcelona, S
 ## More about Philosophy
 
 This collection is a recent experiment on my part, inspired by a famous essay
-from Edward Tufte. [Find out more about the philosophy behind the experiment.](todo)
+from Edward Tufte. [Find out more about the philosophy behind the experiment.](http://www.theexclusive.org/2016/12/on-creating-companion-web-site-for-talks.html)

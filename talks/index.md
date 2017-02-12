@@ -15,6 +15,8 @@ Each web page below contains slides, code, links to papers, and a bullet point a
 NIPS Neural Abstract Machines & Program Induction (NAMPI) workshop. Barcelona, Spain.
 10 December 2016
 
+* [Machine Learning for Data Exploration](glasgow2017/) University of Glasgow, 23 January 2017.
+
 ## More about Philosophy
 
 This collection is a recent experiment on my part, inspired by a famous essay

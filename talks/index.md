@@ -17,6 +17,9 @@ NIPS Neural Abstract Machines & Program Induction (NAMPI) workshop. Barcelona, S
 
 * [Machine Learning for Data Exploration](glasgow2017/) University of Glasgow, 23 January 2017.
 
+* [Statistical Analysis of Computer Program Text](statistical-nlp-swe/)
+  Amazon Development Centre Scotland, 26 April 2017.
+
 ## More about Philosophy
 
 This collection is a recent experiment on my part, inspired by a famous essay

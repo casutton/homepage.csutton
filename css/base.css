@@ -13,6 +13,9 @@ li.nav-font a { font-weight: normal; }
 .photo { margin-top: 50px; border: 1px solid black; }
 .breaking { background-color: #FFCCCC; padding: 15px 25px 10px 25px; }
 
+/* for header on front page */
+.tiny-link { font-size: 10pt; }
+
 .color-header { margin-top: -10px; }
 #contact { padding-bottom: -5px; margin-bottom: 5px; }
 .page-header { padding-bottom: 0px; }

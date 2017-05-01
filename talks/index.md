@@ -20,6 +20,9 @@ NIPS Neural Abstract Machines & Program Induction (NAMPI) workshop. Barcelona, S
 * [Statistical Analysis of Computer Program Text](statistical-nlp-swe/)
   Amazon Development Centre Scotland, 26 April 2017.
 
+* [You and Your Code: Priniciples of Research Software Engineering](principles-rse): Lecture aimed at undergraduate computer science
+students to understand some of the ideas behind programming in research 
+
 ## More about Philosophy
 
 This collection is a recent experiment on my part, inspired by a famous essay

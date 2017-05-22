@@ -36,7 +36,7 @@ to others than to decide what to do for oneself.
 
 * [Principles of building research code](http://www.theexclusive.org/2012/08/principles-of-research-code.html)
 * [How to give academic posters](/csutton/advice/posters.html)
-* [Advice posts from my blog](http://www.theexclusive.org/search/label/advice)
+* [Advice posts from my blog](http://www.theexclusive.org/tag/advice)
 
 ## More Advice from Others
 

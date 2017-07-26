@@ -61,6 +61,13 @@ Skype: casutton<br/>
 
     <div class="row">
       <div class="col-md-12">
+
+	<h2>News</h2>
+
+<div markdown="1">
+{% include recent_news.md %}
+</div>
+
 <h2>Research</h2>
 
 <p>

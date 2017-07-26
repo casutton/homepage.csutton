@@ -4,9 +4,12 @@ layout: default
 
 # News
 
-* *July 2017*: I have finally been able to publish my old code
-for [probabilistic inference in queueing networks](https://github.com/casutton/bayes-qnet) 
-onto Github. This is the code from Sutton and Jordan, 2011, Annals of Applied Statistics.
+### Recent
+
+{% include recent_news.md %}
+
+### 2017
+
 * *April 2017*: PhD position available in
 [deep learning methods for data visualization and understanding](./lodephd2017.html).
 

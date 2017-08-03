@@ -64,6 +64,12 @@ architectures.
 
 [Slides as pdf](semvec-icml2017.pdf)
 
+## Visualizations and Data
+
+We have another web page that contains our 
+[data sets and an interactive visualizaton](http://groups.inf.ed.ac.uk/cup/semvec/)
+of our learned representations.
+
 ## Code
 
  * Implementation of eqnets on Github: [https://github.com/mast-group/eqnet](https://github.com/mast-group/eqnet)

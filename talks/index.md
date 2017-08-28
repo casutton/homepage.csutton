@@ -9,12 +9,15 @@ Research Talks
 Here are "companion web pages" to some research seminars that I have recently presented.
 Each web page below contains slides, code, links to papers, and a bullet point abstract.
 
-## Upcoming Talks
+<!-- ## Upcoming Talks -->
 
-* **June 2017**: [Machine Learning for Data Exploration and Generation](ml-exploration-generation/). EdIntelligence student
-seminar, Edinburgh.
 
 ## Talks
+
+* August 2017: [Learning Continuous Semantic Representations of Symbolic Expressions](icml2017/). International Conference on Machine Learning (ICML). Sydney, Australia.
+
+* June 2017: [Machine Learning for Data Exploration and Generation](ml-exploration-generation/). EdIntelligence student
+seminar, Edinburgh.
 
 * June 2017: [Statistical Analysis of Computer Program Text](statistical-nlp-swe/)
   sourced tech talk, Moscow, Russia.

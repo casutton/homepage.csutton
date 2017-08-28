@@ -62,7 +62,7 @@ architectures.
 
 ## Slides
 
-[Slides as pdf](semvec-icml2017.pdf)
+[Slides as pdf](eqnet-icml-2017.pdf)
 
 ## Visualizations and Data
 

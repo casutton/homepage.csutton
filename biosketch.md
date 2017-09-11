@@ -26,6 +26,8 @@ Institute.
 * PhD in Computer Science, University of Massachusetts Amherst, 2008.
 * BA in Computer Science and Philosophy, St Mary's College of Maryland, 1999.
 
+See [my curriculum vitae](sutton-vita.pdf)
+
 ## Photographs
 
 ![Charles Sutton (small photo)](images/charles3.jpg){:class="img-responsive"}<br/>
@@ -34,4 +36,5 @@ Web size (116x140)
 [Full size photo (1410 x 1701)](images/charles3large.jpg)
 
 (Image credits: Miles Osborne)
+
 

@@ -131,6 +131,7 @@ Our software in this area is available via the <a href="https://github.com/mast-
   <li>Lazar Valkov</li>
   <li><a href="http://homepages.inf.ed.ac.uk/s1207807/">Maria Gorinova</a> (primary supervisor: Andrew D Gordon)</li>
   <li>Irene Vlassi-Pandi</li>
+  <li>Kai Xu</li>
   <li><a href="http://privatewww.essex.ac.uk/~aplouis/">Annie Louis</a> (research staff)</li>
 </ul>
 

@@ -4,9 +4,9 @@ other_header_includes: egg.html
 no_container: true
 ---
 <div class="color-header">
-  
+
   <div class="container page-header">
-  
+
   <div class="row" id="contact">
     <div class="col-md-2">
       <img class="photo" id="magic_photo" src="images/charles3.jpg" alt="Charles Sutton photo" onclick="do_switch()">
@@ -34,7 +34,7 @@ Skype: casutton<br/>
       <b><a href="advice/prospective-students.html">Prospective Students</a></b><br/>
       <b><a href="advice/">Advice for Researchers</a></b><br/>
     </div>
-    
+
     <div class="col-md-5 contact-box">
       <b><a href="http://scholar.google.co.uk/citations?user=hYtGXD0AAAAJ&amp;hl=en">at Google Scholar</a></b><br/>
       <b><a href="/csutton/#group">Research Group</a><br/></b>
@@ -162,11 +162,12 @@ Our software in this area is available via the <a href="https://github.com/mast-
 	 <li><a href="http://groups.inf.ed.ac.uk/cup/codeattention">Extreme source code summariation</a> using deep learning</li>
        </ul>
      </li>
-     <li><a href="http://www.kdd.org/kdd2016/subtopic/view/a-subsequence-interleaving-model-for-sequential-pattern-mining">Mining sequential patterns</a> using probabilistic machine learning</li>
+     <li><a href="http://groups.inf.ed.ac.uk/cup/mist/">Mining interesting stuff:</a>
+     Probabilistic machine learning for data mining and understanding large data sets.</li>
      <li><a href="http://www.energyoracle.org">IDEAL: Home energy advice using machine learning</a></li>
     </ul>
   <p>But not all of my research fits into one of these web sites. To get the whole story, read all of my papers!</p>
-  
+
 
 <h2>Advisors, Mentors, Collaborators</h2>
 
@@ -175,7 +176,7 @@ Our software in this area is available via the <a href="https://github.com/mast-
 	<li> I did a postdoc at the
 <a href="http://www.cs.berkeley.edu/">University of California, Berkeley</a>
 working with  <a href="http://www.cs.berkeley.edu/~jordan/">Michael I. Jordan</a>. I also collaborated with <a href="http://www.cs.berkeley.edu/~pattrsn/">Dave Patterson</a>,
-		<a href="http://bnrg.eecs.berkeley.edu/~randy/">Randy Katz</a>, <a href="http://www.cs.berkeley.edu/~fox/">Armando Fox</a>, and <a href="http://bnrg.cs.berkeley.edu/~adj/">Anthony Joseph</a> in networking and systems. 
+		<a href="http://bnrg.eecs.berkeley.edu/~randy/">Randy Katz</a>, <a href="http://www.cs.berkeley.edu/~fox/">Armando Fox</a>, and <a href="http://bnrg.cs.berkeley.edu/~adj/">Anthony Joseph</a> in networking and systems.
 I participated in the <a href="http://radlab.cs.berkeley.edu/">RAD Lab</a>, which focused on issues in the design and
 management of data center applications.</li>
 	<li>I worked as a intern at Microsoft Research with <a href="https://research.microsoft.com/~minka/">Tom Minka</a>.</li>

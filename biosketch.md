@@ -6,7 +6,7 @@ title: Biographical Sketch, Charles Sutton
 
 Charles Sutton is a Reader (equivalent to Associate
 Professor: [http://bit.ly/1W9UhqT](http://bit.ly/1W9UhqT)) in Machine
-Learning at the University of Edinburgh.  He has published over 40
+Learning at the University of Edinburgh.  He has published over 50
 papers in a broad range of applications of probabilistic machine
 learning and deep learning, including natural language processing
 (NLP), analysis of computer systems, software engineering, sustainable
@@ -36,5 +36,3 @@ Web size (116x140)
 [Full size photo (1410 x 1701)](images/charles3large.jpg)
 
 (Image credits: Miles Osborne)
-
-

@@ -19,7 +19,7 @@ li.nav-font a { font-weight: normal; }
 .color-header { margin-top: -10px; }
 #contact { padding-bottom: -5px; margin-bottom: 5px; }
 .page-header { padding-bottom: 0px; }
-	       
+
 .contact-box { margin-bottom: 15px; }
 
 .fa-navbar { font-size: 20pt; }
@@ -37,6 +37,8 @@ li.nav-font a { font-weight: normal; }
 .annote { color: darkred; font-size: 80%; }
 .abstract { margin: 1em 2em 3em 1em; font-size: 10pt; text-indent:0em; }
 .note { font-size: 10pt; }
+
+#hdrtiny { font-size: 10pt; padding-left: 1.5em; }
 
 /* Sticky footer styles
 -------------------------------------------------- */

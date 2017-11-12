@@ -32,6 +32,7 @@ Skype: casutton<br/>
     <div class="col-md-5 contact-box">
       <b><a href="publications.html">Publications</a></b><br/>
       <b><a href="advice/prospective-students.html">Prospective Students</a></b><br/>
+      <span id="hdrtiny">(<a href="http://www.theexclusive.org/2017/11/cs-rankings.html">A word about CS rankings</a>)</span><br/>
       <b><a href="advice/">Advice for Researchers</a></b><br/>
     </div>
 
@@ -110,8 +111,8 @@ notes</a> (very old).
 
 <p>I collaborate with a wonderful group of students and researchers
 who have, for whatever reason, chosen to go under the
-name CUP: Charles's Uncertain People.
-There is a <a href="https://wiki.inf.ed.ac.uk/ANC/CharlesUncertainPeople">CUP Reading Group</a>,
+name <a href="http://groups.inf.ed.ac.uk/cup">CUP: Charles's Uncertain People</a>.
+We have a weekly reading group,
 to which all are welcome.</p>
 
 <p>
@@ -121,33 +122,12 @@ Our software in this area is available via the <a href="https://github.com/mast-
 </p>
 
 
-<h3>Current members of my research group</h3>
+<h3>Members of my research group</h3>
 
-<ul>
-  <li><a href="http://akashgit.github.io">Akash Srivastava</a></li>
-  <li>Michael-Rafael Karampatsis</li>
-  <li>Ryan Davies</li>
-  <li>Sim&atilde;o Eduardo</li>
-  <li>Lazar Valkov</li>
-  <li><a href="http://homepages.inf.ed.ac.uk/s1207807/">Maria Gorinova</a> (primary supervisor: Andrew D Gordon)</li>
-  <li>Irene Vlassi-Pandi</li>
-  <li>Kai Xu</li>
-  <li><a href="http://privatewww.essex.ac.uk/~aplouis/">Annie Louis</a> (research staff)</li>
-</ul>
-
-
-<h3>Former members</h3>
-
-<ul>
-  <li><a href="http://homepages.inf.ed.ac.uk/mzhong/">Mingjun Zhong</a> (postdoctoral researcher), now lecturer (assistant professor), University of Lincoln</li>
-  <li><a href="http://miltos.allamanis.com">Miltiadis Allamanis</a>, PhD (2016), now postdoc, Microsoft Research</li>
-    <li><a href="http://cs.nyu.edu/~kgeras/">Krzysztof Geras</a>, PhD (2016), now postdoc, New York University</li>
-    <li><a href="http://homepages.inf.ed.ac.uk/s0956889/">Yichuan Zhang</a>, PhD (2015)</li>
-      <li><a href="http://people.maths.ox.ac.uk/fowkes/">Jaroslav Fowkes</a>, postdoctoral researcher, now researcher at Oxford University</li>
-  <li>Pankajan Chantirasegaran (research programmer)</li>
-  <li>Daniel Renshaw, MPhil (2016)</li>
-
-  </ul>
+<p>
+<a href="http://groups.inf.ed.ac.uk/cup">Current and former members of my group</a>
+at the CUP group web site.
+</p>
 
 <h2>Projects</h2>
 

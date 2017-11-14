@@ -140,6 +140,8 @@ at the CUP group web site.
 	 <li><a href="http://groups.inf.ed.ac.uk/cup/naturalize/">Suggesting accurate method and class names</a> using
 	 neural network language models</li>
 	 <li><a href="http://groups.inf.ed.ac.uk/cup/codeattention">Extreme source code summariation</a> using deep learning</li>
+   <li>Learn more at our <a href="https://ml4code.github.io/">living literature review
+   of ML for code</a>.</li>
        </ul>
      </li>
      <li><a href="http://groups.inf.ed.ac.uk/cup/mist/">Mining interesting stuff:</a>

@@ -84,7 +84,7 @@ motive the development of new methodology.  I aim to develop new machine learnin
 methods based on this interplay of theory and practice.
 </p><p>
 I am part of a large   	  <a href="http://www.anc.ed.ac.uk/index.php?option=com_content&amp;task=view&amp;id=184&amp;Itemid=398">machine learning group</a> at Edinburgh.
-Here is some <a href="for-students.html">information for prospective students</a> in the group.
+Here is some <a href="advice/prospective-students.html">information for prospective students</a> in the group.
 </p><p>
 My position is funded through <a href="http://www.sicsa.ac.uk/">the Scottish Informatics and Computer Science Alliance</a>.
   </p>

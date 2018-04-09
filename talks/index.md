@@ -9,10 +9,25 @@ Research Talks
 Here are "companion web pages" to some research seminars that I have recently presented.
 Each web page below contains slides, code, links to papers, and a bullet point abstract.
 
+Like most academics, I have several slide decks that I re-use for different audiences,
+with slight modifications for each version. If I posted each modified version
+as a separate entry, it would clutter this list. To avoid this, I only keep
+the most recent version up on this page, so the slides you see here may
+be slightly different from the ones I presented.
+
+
 <!-- ## Upcoming Talks -->
 
-
 ## Talks
+
+### 2018
+
+* [Adventures in Neurosymbolic Learning](adventures-neurosymbolic/).
+Using logical expressions and functional programs
+to define the structure of deep networks.
+Also some work on debugging deep networks.
+
+### 2017
 
 * August 2017: [Learning Continuous Semantic Representations of Symbolic Expressions](icml2017/). International Conference on Machine Learning (ICML). Sydney, Australia.
 
@@ -32,7 +47,7 @@ NIPS Neural Abstract Machines & Program Induction (NAMPI) workshop. Barcelona, S
 10 December 2016
 
 * [You and Your Code: Principles of Research Software Engineering](principles-rse): Lecture aimed at undergraduate computer science
-students to understand some of the ideas behind programming in research 
+students to understand some of the ideas behind programming in research
 
 ## More about Philosophy
 

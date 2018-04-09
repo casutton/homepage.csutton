@@ -24,7 +24,7 @@ Also I'll try to spend a little bit of time on a new dimensionality reduction me
 
 ## Slides
 
-[Slides as pdf](adventures_neurosymbolic.pdf)
+[Slides as pdf](adventures-neurosymbolic.pdf)
 
 
 ## Papers

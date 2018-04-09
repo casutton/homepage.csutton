@@ -22,7 +22,7 @@ be slightly different from the ones I presented.
 
 ### 2018
 
-* [Adventures in Neurosymbolic Learning](adventures-neurosymbolic/).
+* [Adventures in Neurosymbolic Learning](adventures-neurosymbolic-2018/).
 Using logical expressions and functional programs
 to define the structure of deep networks.
 Also some work on debugging deep networks.

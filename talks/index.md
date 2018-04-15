@@ -22,6 +22,15 @@ be slightly different from the ones I presented.
 
 ### 2018
 
+* [Deep Learning, Language, and Code: From Methodology to Applications and Back](dllc/).
+A medley of deep learning for software engineering with some deep
+generative models.
+
+* [Learning for Programs: Connecting code, statistics, semantics, and language](learning4programs/).
+The "second wave" of research on deep learning for code is examining
+how to connect ML-based code analysis with natural langauge
+and program semantics.
+
 * [Adventures in Neurosymbolic Learning](adventures-neurosymbolic-2018/).
 Using logical expressions and functional programs
 to define the structure of deep networks.

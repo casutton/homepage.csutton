@@ -16,10 +16,11 @@ no_container: true
     </div>
 
     <div class="col-md-5 contact-box">
+      Research Scientist, <a href="https://ai.google/">Google AI</a><br/>
       Reader&nbsp;(<a href="http://www.theexclusive.org/2013/08/academic-ranks-in-us-and-uk.html">=&nbsp;Associate&nbsp;Professor</a>)<br/>
-      School of Informatics<br/>
+      School of Informatics,
       University of Edinburgh<br/>
-      Turing Fellow, <a href="http://turing.ac.uk">The Alan Turing Institute</a><br/>
+      Fellow, <a href="http://turing.ac.uk">The Alan Turing Institute</a>
     </div>
 
     <div class="col-md-5 contact-box">

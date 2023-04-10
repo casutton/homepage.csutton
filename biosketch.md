@@ -4,7 +4,8 @@ title: Biographical Sketch, Charles Sutton
 ---
 # Current Biographical Sketch
 
-Charles Sutton is a Reader (equivalent to Associate
+Charles Sutton is a Research Scientist at Google Brain
+and a Reader (equivalent to Associate
 Professor: [http://bit.ly/1W9UhqT](http://bit.ly/1W9UhqT)) in Machine
 Learning at the University of Edinburgh.  He has published over 50
 papers in probabilistic machine learning and deep learning, motivated by
@@ -17,10 +18,11 @@ work at the University of California Berkeley. He has served as
 Director of the EPSRC Centre for Doctoral Training in Data Science at
 the University of Edinburgh. He is a Fellow of the Alan Turing
 Institute, the UK's national research institute for artificial intelligence
-and data science. He is currently a visiting researcher at Google Brain.
+and data science.
 
 ## Professional and Educational History
 
+* Research Scientist, Google, 2018-present.
 * Reader in Machine Learning, School of Informatics, University of Edinburgh, 2014-present.
 * Lecturer in Machine Learning, School of Informatics, University of Edinburgh, 2009-2014.
 * Postdoctoral Researcher, University of California Berkeley, 2007-2009.

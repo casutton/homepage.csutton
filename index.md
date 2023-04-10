@@ -7,72 +7,49 @@ no_container: true
 
   <div class="container page-header">
 
-  <div class="row" id="contact">
-    <div class="col-md-2">
-      <img class="photo" id="magic_photo" src="images/charles3.jpg" alt="Charles Sutton photo" onclick="do_switch()">
-    </div>
-    <div class="col-md-10">
-      <h1>Charles Sutton <span class="tiny-link">(<a href="biosketch.html">Bio</a>)</span></h1>      
-    </div>
+    <div class="row" id="contact">
 
-    <div class="col-md-5 contact-box">
-      Research Scientist, <a href="https://ai.google/">Google AI</a><br/>
-      Reader&nbsp;(<a href="http://www.theexclusive.org/2013/08/academic-ranks-in-us-and-uk.html">=&nbsp;Associate&nbsp;Professor</a>)<br/>
-      School of Informatics,
-      University of Edinburgh<br/>
-      Fellow, <a href="http://turing.ac.uk">The Alan Turing Institute</a>
-    </div>
+      <div class="col-md-2">
+        <img class="photo" id="magic_photo" src="images/charles3.jpg" alt="Charles Sutton photo" onclick="do_switch()">
+      </div>
 
-    <div class="col-md-5 contact-box">
-Office: <a href="http://www.ed.ac.uk/informatics/about/location">IF 3.27</a><br/>
-Voice (W): +44 (0) 131 651 5634<br/>
-Skype: casutton<br/>
-      Email: <a href="mailto:csutton@inf.ed.ac.uk">csutton@inf.ed.ac.uk</a><br/>
-    </div>
+      <div class="col-md-10">
+        <h1>Charles Sutton <span class="tiny-link">(<a href="biosketch.html">Bio</a>)</span></h1>      
+      </div>
 
-    <div class="col-md-5 contact-box">
-      <b><a href="publications.html">Publications</a></b><br/>
-      <b><a href="advice/prospective-students.html">Prospective Students</a></b><br/>
-      <span id="hdrtiny">(<a href="http://www.theexclusive.org/2017/11/cs-rankings.html">A word about CS rankings</a>)</span><br/>
-      <b><a href="advice/">Advice for Researchers</a></b><br/>
-    </div>
+      <div class="col-md-4 contact-box">
+        Research Scientist, <a href="https://research.google/teams/brain/">Google Brain</a><br/>
+        Honorary Fellow, School of Informatics<br/>
+        University of Edinburgh<br/>
+        Email: <a href="mailto:csutton@inf.ed.ac.uk">csutton@inf.ed.ac.uk</a><br/>
+      </div>
 
-    <div class="col-md-5 contact-box">
-      <b><a href="http://scholar.google.co.uk/citations?user=hYtGXD0AAAAJ&amp;hl=en">at Google Scholar</a></b><br/>
-      <b><a href="/csutton/#group">Research Group</a><br/></b>
-      <b><a href="http://www.theexclusive.org/">Blog</a></b>
+      <div class="col-md-3 contact-box">
+        <b><a href="publications.html">Publications</a></b><br/>
+        <b><a href="advice/prospective-students.html">Prospective Students</a></b><br/>
+        <span id="hdrtiny">(<a href="http://www.theexclusive.org/2017/11/cs-rankings.html">A word about CS rankings</a>)</span><br/>
+        <b><a href="advice/">Advice for Researchers</a></b><br/>
+      </div>
+
+      <div class="col-md-3 contact-box">
+        <b><a href="http://scholar.google.co.uk/citations?user=hYtGXD0AAAAJ&amp;hl=en">at Google Scholar</a></b><br/>
+        <b><a href="/csutton/#group">Research Group</a><br/></b>
+        <b><a href="http://www.theexclusive.org/">Blog</a></b>
+      </div>
+
     </div>
   </div>
-  </div>
-</div>
 
 <div class="container">
-
-<div class="row">
-  <!--
-    <div class="col-md-1"></div>
-    <div class="breaking col-md-10">
-        <p><b>PhD position available for Sept 2017:</b> <a href="news/lodephd2017.html">Deep learning for data visualization and understanding.</a></p>
-    </div>
-    -->
-<!--    <div class="breaking col-md-10">
-        <p>10 funded PhD positions available in Data Science! Consider studying for a <a href="http://datascience.inf.ed.ac.uk/">PhD
-  in the new Centre for Doctoral Training in Data Science</a>.</p>
-    </div> -->
-    </div>
 
     <div class="row">
       <div class="col-md-12">
 
-	<h2>News</h2>
-
-<div markdown="1">
-{% include recent_news.md %}
-</div>
-
 <h2>Research</h2>
 
 <p>
+<i>Update Sept 2018</i>: I have now moved to Google and I am no longer taking on students at Edinburgh.
+</p><p>
 My research concerns a broad range of applications of probabilistic methods
 for machine learning, including software engineering, natural language processing,
 computer security, queueing theory, and sustainable energy.

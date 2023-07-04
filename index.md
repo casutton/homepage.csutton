@@ -18,7 +18,7 @@ no_container: true
       </div>
 
       <div class="col-md-4 contact-box">
-        Research Scientist, <a href="https://research.google/teams/brain/">Google Brain</a><br/>
+        Research Scientist, <a href="https://deepmind.com/">Google DeepMind</a><br/>
         Honorary Fellow, School of Informatics<br/>
         University of Edinburgh<br/>
         Email: <a href="mailto:csutton@inf.ed.ac.uk">csutton@inf.ed.ac.uk</a><br/>

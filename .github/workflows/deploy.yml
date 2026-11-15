@@ -1,0 +1,53 @@
+# Builds the site on every push. Deploys to GitHub Pages (charlessutton.org) only from master.
+#   1. pubs/build.py turns pubs/papers.bib into _includes/pubs-*.html
+#   2. Jekyll builds the full site
+#   3. On master, the result is published to GitHub Pages
+# If any step fails, nothing is deployed and the live site stays as it was.
+name: Build and deploy
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Build publication lists from papers.bib
+        uses: astral-sh/setup-uv@v6
+      - run: uv run pubs/build.py
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

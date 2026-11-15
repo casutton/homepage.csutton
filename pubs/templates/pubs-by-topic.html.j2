@@ -1,0 +1,20 @@
+<!-- Header listing keywords -->
+<ul class="twocol">
+{%- for t in topics_alpha %}
+<li><a href="#{{ t }}">{{ t | titleize }}</a></li>
+{%- endfor %}
+</ul>
+
+<!-- Show papers -->
+{%- for t, entries in by_topic %}
+<div class="col-md-6" id="{{ t }}">
+<h3 class="keyword">{{ t | titleize }}</h3>
+<OL>
+{%- for e in entries %}
+<li class="bibitem">
+{% include "entry.html.j2" %}
+</li>
+{%- endfor %}
+</OL>
+</div>
+{%- endfor %}

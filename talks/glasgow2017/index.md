@@ -46,16 +46,16 @@ Image credits:
 The papers that the talk is based on. Please see bibliographies for
 works by others:
 
-[A Bayesian Network Model for Interesting Itemsets](http://homepages.inf.ed.ac.uk/csutton/publications/pkdd2016-iim.pdf).
+[A Bayesian Network Model for Interesting Itemsets](/publications/pkdd2016-iim.pdf).
 Jaroslav Fowkes and Charles Sutton. In European Conference on Machine Learning and
 Principles and Practice of Knowledge Discovery (ECML-PKDD). 2016.
 
 [A Subsequence Interleaving Model for Sequential Pattern
-Mining](http://homepages.inf.ed.ac.uk/csutton/publications/kdd2016-subsequence-interleaving.pdf).
+Mining](/publications/kdd2016-subsequence-interleaving.pdf).
 Jaroslav Fowkes and Charles Sutton. In ACM SIGKDD
 International Conference on Knowledge Discovery and Data Mining. 2016.
 
-[Parameter-Free Probabilistic API Mining across GitHub](http://homepages.inf.ed.ac.uk/csutton/publications/fse2016.pdf). Jaroslav Fowkes
+[Parameter-Free Probabilistic API Mining across GitHub](/publications/fse2016.pdf). Jaroslav Fowkes
 and Charles Sutton. In Foundations of Software Engineering
 (FSE). 2016.
 

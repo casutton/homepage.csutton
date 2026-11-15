@@ -21,7 +21,7 @@ no_container: true
         Research Scientist, <a href="https://deepmind.com/">Google DeepMind</a><br/>
         Honorary Fellow, School of Informatics<br/>
         University of Edinburgh<br/>
-        Email: <a href="mailto:csutton@inf.ed.ac.uk">csutton@inf.ed.ac.uk</a><br/>
+        Email: <a href="mailto:charles44944@gmail.com">charles44944@gmail.com</a><br/>
       </div>
 
       <div class="col-md-3 contact-box">
@@ -33,7 +33,7 @@ no_container: true
 
       <div class="col-md-3 contact-box">
         <b><a href="http://scholar.google.co.uk/citations?user=hYtGXD0AAAAJ&amp;hl=en">at Google Scholar</a></b><br/>
-        <b><a href="/csutton/#group">Research Group</a><br/></b>
+        <b><a href="/#group">Research Group</a><br/></b>
         <b><a href="http://www.theexclusive.org/">Blog</a></b>
       </div>
 
@@ -67,17 +67,17 @@ Here is some <a href="advice/prospective-students.html">information for prospect
 My position is funded through <a href="http://www.sicsa.ac.uk/">the Scottish Informatics and Computer Science Alliance</a>.
   </p>
 
-<h2>Recent Publications</h2>
+<h2>Selected Publications</h2>
 
 <p>
 Please see my  <b><a href="publications.html">full list of publications</a></b>,
 or my list of  <b><a href="publications-by-topic.html">publications, sorted by topic</a></b>.
 </p>
 <p>
-Here are a few recent highlights:
+Here are a few highlights:
 </p>
 
-{% include recent-pubs.html %}
+{% include top-cited.html %}
 
 <p>
 Finally, I have a collection of brief, tutorial-style <a href="notes/">research
@@ -87,17 +87,11 @@ notes</a> (very old).
 
 <h2 id="group">Research Group</h2>
 
-<p>I collaborate with a wonderful group of students and researchers
-who have, for whatever reason, chosen to go under the
+<p>When I was at Edinburgh, my research group chose, for whatever reason, to go under the
 name <a href="http://groups.inf.ed.ac.uk/cup">CUP: Charles's Uncertain People</a>.
-We have a weekly reading group,
-to which all are welcome.</p>
-
-<p>
-A subgroup of CUP, called <a href="http://mast-group.github.io/">MAST (Machine learning for the Analysis of Source code Text)</a>, focuses
+A subgroup of CUP, called <a href="http://mast-group.github.io/">MAST (Machine learning for the Analysis of Source code Text)</a>, focused
 on machine learning for software engineering and programming languages.
-Our software in this area is available via the <a href="https://github.com/mast-group/">MAST Github group</a>.
-</p>
+Our software in this area is available via the <a href="https://github.com/mast-group/">MAST Github group</a>.</p>
 
 
 <h3>Members of my research group</h3>
@@ -146,8 +140,7 @@ management of data center applications.</li>
 <h2>Personal</h2>
 
 <p>
-Hobbies: I live with cats and fish, who don't interact as much as you
-might think. I've played a few computer games,
+Hobbies: I play traditional music on fiddle and mandolin. I live with cats. I've played a few computer games,
 mostly adventure games and RPGs. I play Go (圍棋, 囲碁, 바둑).
 If you would like to know where to play Go in person, try
 <a href="http://www.usgo.org/">the American Go Association</a>

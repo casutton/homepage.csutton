@@ -1,0 +1,71 @@
+{#- One publication. Ported from v2/entry.rhtml. Variables: e (entry dict), no_js -#}
+{%- set url = e.myurl or e.url -%}
+{%- set has_arxiv = e.arxivurl and e.arxivurl.strip() -%}
+{%- set title_url = url or (e.arxivurl.strip() if has_arxiv else "") -%}
+<p>
+{% if e.type == "inproceedings" -%}
+<a href="{{ title_url }}"><b>{{ e.title }}</b></a>.&nbsp;{{ e.authors }}.
+	In <i>{{ e.booktitle }}</i>.  {{ e.year }}.
+{%- elif e.type == "article" -%}
+<a href="{{ title_url }}"><b>{{ e.title }}</b></a>.&nbsp;{{ e.authors }}.
+   <i>{{ e.journal }}</i>{% if e.volume %} {{ e.volume }}{% if e.number %} ({{ e.number }}){% endif %}{% endif %}.
+  {% if e.note %}{{ e.note }}.{% endif %}
+  {{ e.year }}.
+{%- elif e.type == "incollection" -%}
+<a href="{{ title_url }}"><b>{{ e.title }}</b></a>.&nbsp;{{ e.authors }}.
+	In {{ e.editor }}, editors. <i>{{ e.booktitle }}</i>. {{ e.publisher }}.  {{ e.year }}.
+{%- elif e.type == "mastersthesis" -%}
+<b>{{ e.title }}</b>.&nbsp;{{ e.authors }}.
+   Synthesis project (Required for Ph.D. candidacy), {{ e.school }}, {{ e.year }}.
+{%- elif e.type == "phdthesis" -%}
+<a href="{{ title_url }}"><b>{{ e.title }}</b></a>.&nbsp;{{ e.authors }}.
+   Ph.D. Dissertation, {{ e.school }}, {{ e.year }}.
+{%- elif e.type == "techreport" -%}
+<a href="{{ title_url }}"><b>{{ e.title }}</b></a>.&nbsp;{{ e.authors }}.
+   {{ e.institution }} Technical Report, {{ e.number }}, {{ e.year }}.
+{%- elif e.type in ("unpublished", "misc") -%}
+<a href="{{ title_url }}"><b>{{ e.title }}</b></a>.&nbsp;{{ e.authors }}.
+{% if e.arxivstring %}<i>{{ e.arxivstring }}</i>. {% endif %}{{ e.year }}.
+{%- else -%}
+ERROR! Can't display {{ e.type }} {{ e.key }}
+{%- endif %}
+{% if e.annote %}<span class="annote">({{ e.annote }})</span>
+{% endif -%}
+</p>
+{% if e.webnote %}
+<p class="note">({{ e.webnote }})</p>
+{% endif %}
+<p>
+   [
+{%- if url or has_arxiv %}
+  {% if url %}<a href="{{ url }}">.pdf</a>{% endif %}
+  {%- if url and has_arxiv %} | {% endif %}
+  {%- if has_arxiv %}<a href="{{ e.arxivurl }}">arXiv</a>{% endif %}
+{%- else %}
+     to appear
+{%- endif %}
+{%- if not no_js %}
+     | <a href="javascript:toggle('bib{{ e.key }}', 'bib_link_{{ e.key }}', 'bib')"  id="bib_link_{{ e.key }}">bib</a>
+  {%- if e.abstract %}
+       | <a href="javascript:toggle('abs{{ e.key }}', 'abs_link_{{ e.key }}', 'abstract')" id="abs_link_{{ e.key }}">abstract</a>
+  {%- endif %}
+{%- endif %}
+{%- if e.openreviewurl %}
+        | <a href="{{ e.openreviewurl }}">discussion</a>
+{%- endif %}
+{%- if e.codeurl %}
+        | <a href="{{ e.codeurl }}">source code</a>
+{%- endif %}
+{%- if e.dataurl %}
+        | <a href="{{ e.dataurl }}">data</a>
+{%- endif %}
+{%- if e.website %}
+        | <a href="{{ e.website }}">code and data</a>
+{%- endif %}
+   ]
+</p>
+{% if not no_js %}
+<div id="div{{ e.key }}"></div>
+<div style="display:none;" id="abs{{ e.key }}"><div class="abstract">{{ e.abstract or "" }}</div></div>
+<div style="display:none;" id="bib{{ e.key }}"><pre class="bibtex">{{ e.bibtex }}</pre></div>
+{% endif %}

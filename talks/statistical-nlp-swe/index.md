@@ -37,16 +37,16 @@ The papers that the talk is based on. Please see bibliographies for
 works by others:
 
 
-[Learning Natural Coding Conventions](http://homepages.inf.ed.ac.uk/csutton/publications/naturalize.pdf).
+[Learning Natural Coding Conventions](/publications/naturalize.pdf).
 Miltiadis Allamanis, Earl T Barr, Christian Bird and Charles Sutton. In Foundations of Software Engineering
 (FSE). 2014.
 
-[Mining Idioms from Source Code](http://homepages.inf.ed.ac.uk/csutton/publications/idioms.pdf).
+[Mining Idioms from Source Code](/publications/idioms.pdf).
 Miltos Allamanis and Charles Sutton.
 In Foundations of Software Engineering
 (FSE). 2014.
 
-[Parameter-Free Probabilistic API Mining across GitHub](http://homepages.inf.ed.ac.uk/csutton/publications/fse2016.pdf). Jaroslav Fowkes
+[Parameter-Free Probabilistic API Mining across GitHub](/publications/fse2016.pdf). Jaroslav Fowkes
 and Charles Sutton. In Foundations of Software Engineering
 (FSE). 2016.
 

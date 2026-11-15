@@ -6,7 +6,7 @@ layout: default
 
 This page collects advice for current PhD students and researchers.
 Instead, if you are interested in joining my group, please see this
-[advice for prospective students](/csutton/advice/prospective-students.html).
+[advice for prospective students](/advice/prospective-students.html).
 
 I've always enjoyed reading web pages about advice for graduate students.
 I think that, subsconsciously, I hope that if I read enough advice from other people,
@@ -35,7 +35,7 @@ I'll admit that I enjoy writing advice for others, perhaps because it's easier t
 to others than to decide what to do for oneself. 
 
 * [Principles of building research code](http://www.theexclusive.org/2012/08/principles-of-research-code.html)
-* [How to give academic posters](/csutton/advice/posters.html)
+* [How to give academic posters](/advice/posters.html)
 * [Advice posts from my blog](http://www.theexclusive.org/tag/advice)
 
 ## More Advice from Others

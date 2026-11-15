@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Charles Sutton Resaerch
-email: csutton@inf.ed.ac.uk
+title: Charles Sutton Research
+email: charles44944@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Research page of Charles Sutton. Research in machine learning, natural language processing,
   conditional random fields, deep learning, software engineering, and programming languages.
-baseurl: "/csutton" # the subpath of your site, e.g. /blog
-url: "http://homepages.inf.ed.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # site lives at the root of charlessutton.org
+url: "https://charlessutton.org"
 twitter_username: RandomlyWalking
 github_username:  casutton
 
@@ -34,3 +34,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - pubs

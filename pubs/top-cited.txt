@@ -1,0 +1,8 @@
+# Papers shown under "Selected Publications" on the home page, in this order.
+# One BibTeX key per line. Citation counts from Google Scholar, 2026-11-14
+# (PaLM and the Gemini 2.5 report left out on purpose).
+odena2021lamda       # Program synthesis with large language models (5232)
+crftut:fnt           # An introduction to conditional random fields (3089)
+big-code-survey      # A survey of machine learning for big code and naturalness (1609)
+scratchpad           # Show your work: Scratchpads (1308)
+srivastava17veegan   # VEEGAN (1037)

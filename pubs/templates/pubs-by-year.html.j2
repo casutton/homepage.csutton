@@ -1,0 +1,10 @@
+{%- for year, entries in by_year %}
+<h3 class="year">{{ year }}</h3>
+<OL>
+{%- for e in entries %}
+<li class="bibitem">
+{% include "entry.html.j2" %}
+</li>
+{%- endfor %}
+</OL>
+{%- endfor %}

@@ -7,3 +7,4 @@ _includes/pubs-by-year.html
 _includes/pubs-by-topic.html
 _includes/top-cited.html
 pubs/preview/
+__pycache__/
